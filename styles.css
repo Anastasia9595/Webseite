@@ -1,0 +1,113 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600&display=swap');
+
+/*font-family: 'Source Sans Pro', sans-serif;*/
+
+* {box-sizing: border-box;}
+
+html, body {margin: 0;}
+
+body {max-width: 980px;
+margin:auto;
+font-family: 'Source Sans Pro', sans-serif;
+background-image: url(img/dot-grid.png);
+}
+
+.wrapper {background-color: #fff;
+          }
+
+header {background-color: #545c69;}
+
+
+main {border: 2px solid #545c69;
+      margin: 0;}
+
+figure {margin: 15px 0;}
+
+
+
+/*---------------------Navigation----------------------*/
+
+nav {text-align: right;}
+
+nav ul {list-style-type: none;
+        margin-bottom: 0;}
+
+nav li {display: inline-block;
+        padding: 10px 20px;
+        margin: 0 20px 10px 10px;}
+
+nav a {text-decoration: none;
+      color: #fff;
+      font-weight: 300;
+      font-size: 20px;}
+
+nav li:hover {background-color: #645c69;}
+
+/*---------------------Navigation----------------------*/
+
+h1{font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 300;
+  color: #545c69;
+  font-size: 3em;}
+
+h2{background-color: lightgrey;
+  text-align: center;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 600;
+  color: #545c69;}
+
+h3{color: #c31924;
+  margin-top: 30px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 600;}
+
+main {padding: 0 50px;}
+
+ul {padding: 0;
+list-style-position: inside;
+margin: 0;}
+
+p {margin: 5px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400;}
+
+ul li {padding: 5px;}
+
+ol {padding: 0;
+    list-style-position: inside;
+    margin: 0;}
+
+ol li {padding: 5px;}
+
+.bold {font-weight: 600;}
+
+p a {color: #000;
+      font-weight: 600;
+    font-family: 'Source Sans Pro', sans-serif;}
+
+
+
+/*------------------Bilder--------------------------*/
+
+.Profilbild {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;}
+
+.Profilbild img {border-radius: 360px;}
+
+figure img {width: 100%;
+            height: auto;}
+
+header img {margin: 0 10px;}
+
+/*------------------Bilder--------------------------*/
+
+/*-----------------Footer---------------------------*/
+
+footer {background-color: #545c69;
+        color: #fff;}
+footer p {margin: 0 50px;}
+
+footer a {color: #fff;}
